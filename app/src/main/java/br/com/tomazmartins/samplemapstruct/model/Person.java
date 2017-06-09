@@ -2,42 +2,42 @@ package br.com.tomazmartins.samplemapstruct.model;
 
 
 public class Person {
-    private House mHouse;
-    private Phone mPhone;
-    private String mName;
-    private String mEmail;
+    private House house;
+    private Phone phone;
+    private String name;
+    private String email;
 
     public Person() {}
 
     public House getHouse() {
-        return mHouse;
+        return house;
     }
 
     public void setHouse( House house ) {
-        this.mHouse = house;
+        this.house = house;
     }
 
     public Phone getPhone() {
-        return mPhone;
+        return phone;
     }
 
     public void setPhone( Phone phone ) {
-        this.mPhone = phone;
+        this.phone = phone;
     }
 
     public String getName() {
-        return mName;
+        return name;
     }
 
     public void setName( String name ) {
-        this.mName = name;
+        this.name = name;
     }
 
     public String getEmail() {
-        return mEmail;
+        return email;
     }
 
     public void setEmail( String email ) {
-        this.mEmail = email;
+        this.email = email;
     }
 }

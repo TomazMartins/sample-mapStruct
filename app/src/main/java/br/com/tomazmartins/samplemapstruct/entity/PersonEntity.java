@@ -1,30 +1,26 @@
 package br.com.tomazmartins.samplemapstruct.entity;
 
-import br.com.tomazmartins.samplemapstruct.model.House;
-import br.com.tomazmartins.samplemapstruct.model.Phone;
-
-
 public class PersonEntity {
-    private House house;
-    private Phone phone;
+    private HouseEntity house;
+    private PhoneEntity phone;
     private String name;
     private String email;
 
     public PersonEntity() {}
 
-    public House getHouse() {
+    public HouseEntity getHouse() {
         return house;
     }
 
-    public void setHouse( House house ) {
+    public void setHouse( HouseEntity house ) {
         this.house = house;
     }
 
-    public Phone getPhone() {
+    public PhoneEntity getPhone() {
         return phone;
     }
 
-    public void setPhone( Phone phone ) {
+    public void setPhone( PhoneEntity phone ) {
         this.phone = phone;
     }
 

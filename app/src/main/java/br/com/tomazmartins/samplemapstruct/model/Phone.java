@@ -2,24 +2,24 @@ package br.com.tomazmartins.samplemapstruct.model;
 
 
 public class Phone {
-    private String mNumber;
-    private Person mOwner;
+    private String number;
+    private Person owner;
 
     public Phone() {}
 
     public String getNumber() {
-        return mNumber;
+        return number;
     }
 
     public void setNumber( String number ) {
-        this.mNumber = number;
+        this.number = number;
     }
 
     public Person getOwner() {
-        return mOwner;
+        return owner;
     }
 
     public void setOwner( Person owner ) {
-        this.mOwner = owner;
+        this.owner = owner;
     }
 }

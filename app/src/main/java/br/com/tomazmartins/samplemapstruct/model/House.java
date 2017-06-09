@@ -2,33 +2,33 @@ package br.com.tomazmartins.samplemapstruct.model;
 
 
 public class House {
-    private int mNumberOfRooms;
-    private String mAddress;
-    private Person mOwner;
+    private int numberOfRooms;
+    private String address;
+    private Person owner;
 
     public House() {}
 
     public int getNumberOfRooms() {
-        return mNumberOfRooms;
+        return numberOfRooms;
     }
 
     public void setNumberOfRooms( int numberOfRooms ) {
-        this.mNumberOfRooms = numberOfRooms;
+        this.numberOfRooms = numberOfRooms;
     }
 
     public String getAddress() {
-        return mAddress;
+        return address;
     }
 
     public void setAddress( String address ) {
-        this.mAddress = address;
+        this.address = address;
     }
 
     public Person getOwner() {
-        return mOwner;
+        return owner;
     }
 
     public void setOwner( Person owner ) {
-        this.mOwner = owner;
+        this.owner = owner;
     }
 }

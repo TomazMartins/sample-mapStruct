@@ -1,11 +1,8 @@
 package br.com.tomazmartins.samplemapstruct.entity;
 
-import br.com.tomazmartins.samplemapstruct.model.Person;
-
-
 public class PhoneEntity {
     private String number;
-    private Person owner;
+    private PersonEntity owner;
 
     public PhoneEntity() {}
 
@@ -17,11 +14,11 @@ public class PhoneEntity {
         this.number = number;
     }
 
-    public Person getOwner() {
+    public PersonEntity getOwner() {
         return owner;
     }
 
-    public void setOwner( Person owner ) {
+    public void setOwner( PersonEntity owner ) {
         this.owner = owner;
     }
 }
